@@ -1,0 +1,67 @@
+.row button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #333333;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+.row {
+    gap: 20px;
+}
+
+.zero {
+    width: 110px !important;
+}
+.BtnG{
+    color:black !important;
+    background-color: #A5A5A5 !important;
+}
+
+.dispBox {
+    margin-top: 50px;
+    margin-bottom: 20px !important;
+}
+
+.disp {
+    width: 205px;
+    padding: 10px 0;
+    border: 0;
+    font-size: 50px;
+    background-color: transparent;
+    text-align: right;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cal {
+    padding: 10px;
+    height: 500px;
+    width: 250px;
+    margin: auto;
+    background-color: #000000;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+#d1 {
+    font-size: 20px !important;
+}
+.BtnY{
+    background-color: #F89B10 !important;
+    color: white !important;
+}

@@ -1,0 +1,53 @@
+.cover{
+    background-color: rgb(27, 27, 28);
+    color: white;
+}
+.itemName h5{
+    font-weight: 800;
+    text-align: left;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.itemCover{
+    text-align: left;
+}
+.ItemStatus {
+    text-align: left;
+    font-size: 14px;
+}
+.ItemStatus span{
+    border-radius: 10px;
+    background-color: grey;
+    padding: 3px 3px;
+    height: 7px !important;
+    margin: 2px 5px;
+    display: inline-block;
+}
+.ItemLable{
+    font-size: 12px;
+    color: rgb(178, 178, 178);
+}
+.itemInfo{
+    width: 60%;
+}
+.itemCover{
+    background-color: #3C3E44;
+    height: 180px !important;
+}
+.ImgCover{
+    width: 40%;
+    height: 180px !important;
+    overflow: hidden;
+}
+.ImgCover img{
+    width: 100% !important;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.textItem{
+    font-size: 14px;
+}

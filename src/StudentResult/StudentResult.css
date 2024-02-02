@@ -1,0 +1,28 @@
+.InputDtl{
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+body{
+    background-color: #eee;
+    
+}
+#Btn{
+    width: 150px !important;
+    height: 40px !important;
+    margin: 20px;
+}
+.table{
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid grey;
+}
+.tr td{
+    text-align: center;
+    background-color: transparent !important;
+}
+

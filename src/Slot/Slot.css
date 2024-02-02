@@ -1,0 +1,45 @@
+.SlotBox{
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 50px rgba(0,0,0,.2);
+    background-color:  rgb(27, 27, 27);
+    color: white;
+
+}
+.SlotBox input{
+    text-align: left;
+    background-color: transparent;
+    border: 0;
+    color: gold;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-bottom-color: gold;
+}
+.SlotBox input:focus{
+    border-radius: 5px;
+    border-color: rgb(255, 247, 200);
+}
+.slotSpan{
+    text-align: left;
+    width: 100px !important;
+}
+.d-flex{
+    display: flex;
+    margin: 5px 0;
+}
+.SlotBox button{
+    width: 200px !important;
+    height: 50px !important;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom,rgb(0, 179, 250), rgb(0, 104, 145));
+}
+.SlotList li{
+    list-style-type: none;
+    text-align: left;
+}

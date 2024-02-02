@@ -1,0 +1,49 @@
+*{
+    text-align: center;
+    outline: none;
+    font: 1em sans-serif;
+}
+.CalBox{
+    width: 300px;
+    margin: 50px auto;
+    background-color: #15172b;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.CalBox input{
+    width: 90%;
+    margin: 3px 0;
+    background-color: #303245;
+    color: #eee;
+    font-size: 18px;
+    border: 0;
+    border-radius: 12px;
+    padding: 10px ;
+    text-align: left;
+}
+.CalBox h2{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 700;
+}
+.CalBox button{
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+}
+#b2{
+    background: linear-gradient(0deg, #c4001dbf 0%, #ff2849 100%);
+}
+#b3{
+    background: linear-gradient(0deg, #0064b6 0%, #39a6ff 100%) ;
+}
+#b4{
+    background: linear-gradient(0deg, #d97b00 0%, #f5ae51 100%) ;
+}
+
