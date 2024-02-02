@@ -19,7 +19,7 @@ function GetData(){
 }
     return (
         <div>
-
+            <></>
             <h1 style={{ fontSize: '60px', fontWeight: '800', margin: '50px' }}>The Rick And Morty API</h1>
             <input type="text" onChange={(e)=>{setInput(e.target.value)}}/>
             <button onClick={()=>{searchData()}}>Search</button>
