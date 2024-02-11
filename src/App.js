@@ -1,10 +1,10 @@
 import './App.css';
 import Calculator from './Calculator/Calculator';
-import Todos from './Todos';
 import Slot from './Slot/Slot';
 import StudentResult from './StudentResult/StudentResult';
 import Age from './age/Age';
 import Cal from './cal/Cal';
+import ToDo from './ToDo/ToDo';
 import ApiCalling from './ApiCalling/ApiCalling';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios, { isCancel, AxiosError } from 'axios';
@@ -33,8 +33,8 @@ function App() {
       {/* <Calculator></Calculator> */}
       {/* <Age></Age> */}
       {/* <Slot></Slot> */}
-      {/* <Todos></Todos> */}
       {/* <StudentResult></StudentResult> */}
+  <ToDo/>
       {isLoading? <Loader></Loader> :  <ApiCalling details={data} reStrat={temp} setdata={setData}></ApiCalling>}
      
     </div>
